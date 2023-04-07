@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title">Etch a Sketch</div>
+    <div class="wrapper">
+    <div class="slider">
+        <input type="range" min="16" max="48" value="16" step="16" oninput="rangeValue.innerText = this.value">
+        <p id="rangeValue">16</p>
+        <button class="generate">Generate</button>
+    </div>
+    <div class="gridCont"></div> 
+    <div style="width: 150px; height: 91px; margin-right: 200px;"></div>
+    </div>
+</body>
+</html>

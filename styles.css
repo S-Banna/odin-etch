@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title {
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-left: 200px;
+    justify-self: flex-start;
+}
+
+.gridCont {
+    display: flex;
+    width: 500px;
+    min-width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.sixteen {
+    flex-basis: 31.25px;
+}
+
+.thirty {
+    flex-basis: 15.625px;
+}
+
+.forty {
+    flex-basis: 10.416666666px;
+}
