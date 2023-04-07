@@ -52,3 +52,7 @@ body {
 .forty {
     flex-basis: 10.416666666px;
 }
+
+.black {
+    background-color: black;
+}
